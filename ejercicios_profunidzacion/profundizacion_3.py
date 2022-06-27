@@ -1,7 +1,7 @@
 # Condicionales [Python]
 # Ejercicios de profundización
 
-# Autor: Inove Coding School
+# Autor: Juan Emilio Dalcol
 # Version: 2.0
 
 # NOTA: 
@@ -30,3 +30,37 @@ contenido. Recomendamos pensar bien este problema de lógica con un lápiz y pap
 
 print('Ejercicios de práctica con números')
 # Empezar aquí la resolución del ejercicio
+
+#Ingresar la temperatura
+
+num1 = float(input("Ingrese el primer valor de temperatura : "))
+
+num2 = float(input("Ingrese el segundo valor de teperatura:  "))
+
+num3 = float(input("Ingrese el tercer valor de temperatura:  "))
+
+temp_a = 0
+temp_b = 0
+temp_p = (num1 + num2 + num3) / 3 
+
+if num1 > num2 and num1 > num3:
+    temp_a = num1
+elif num2 > num1 and num2 > num3:
+    temp_a = num2
+else:
+    temp_a = num3
+
+if num1 < num2 and num1 < num3:
+    temp_b = num1
+elif num2 < num1 and num2 < num3:
+    temp_b = num2
+else:
+    temp_b = num3
+
+
+print(f"La temperara mas alta es {temp_a}º")
+print(f"La temperatura mas baja es {temp_b}º")
+print(f"La temperatura prromedio es {temp_p}º")
+
+
+print("Fin del programa")

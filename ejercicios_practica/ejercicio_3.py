@@ -1,7 +1,7 @@
 # Condicionales [Python]
 # Ejercicios de práctica
 
-# Autor: Inove Coding School
+# Autor: Juan Emilio Dalcol
 # Version: 2.0
 
 # IMPORTANTE: NO borrar los comentarios
@@ -27,6 +27,17 @@ numero_2 = -2
 # puntaje en un examen
 puntaje = 70
 
+if numero_1 > 5:
+    if numero_2 > 0:
+        print ("Resp=1")
+    else:
+        print ("Resp=2")
+elif numero_2 > 5:
+    print("resp=3")
+else:
+    print ("resp=4")
+
+
 # Si el puntaje es mayor igual a 90 --> imprimir A
 # Si el puntaje es mayor igual a 80 --> imprimir B
 # Si el puntaje es mayor igual a 70 --> imprimir C
@@ -35,3 +46,21 @@ puntaje = 70
 
 # Debe imprimir en pantalla la calificacion
 # Utilizar "if" anidados
+
+a = 90
+b = 80
+c = 70
+d = 60
+
+if puntaje >= 90:
+    print("A")
+elif puntaje >= 80:
+    print("B")
+elif puntaje >= 70:
+    print("C")
+elif puntaje >= 60:
+    print("D")
+else:
+    print ("F")
+    
+print("Fin del programa")

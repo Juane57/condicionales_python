@@ -1,7 +1,7 @@
 # Condicionales [Python]
 # Ejercicios de profundización
 
-# Autor: Inove Coding School
+# Autor: Juan Emilio Dalcol
 # Version: 2.0
 
 # NOTA: 
@@ -23,3 +23,28 @@ Para cada caso imprimir el resultado en pantalla.
 
 print('Ejercicios de práctica con números')
 # Empezar aquí la resolución del ejercicio
+
+# Ingresar los numero por consola
+
+num1 = int(input("Ingrese su primer numero: "))
+
+num2 = int(input("Ingrese su segundo numero: "))
+
+num3 = int(input("Ingrese su tercer numero:  "))
+
+if (num1 % 2) == 0:
+    print(f"El numero '{num1}' es par")
+else:
+    print(f"El numero '{num1}' es impar")
+
+if (num2 % 2) == 0:
+    print(f"El numero '{num2}' es par")
+else:
+    print(f"El numero '{num2}' es impar")
+
+if (num3 % 2) == 0:
+    print(f"El numero '{num3}' es par")
+else:
+    print(f"El numero '{num3}' es impar")
+
+print("Fin del programa")

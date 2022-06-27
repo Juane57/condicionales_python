@@ -1,7 +1,7 @@
 # Condicionales [Python]
 # Ejercicios de profundización
 
-# Autor: Inove Coding School
+# Autor: Juan Emilio Dalcol
 # Version: 2.0
 
 # NOTA: 
@@ -22,3 +22,20 @@ si el resultado es positivo, negativo o cero.
 
 print('Ejercicios de práctica con números')
 # Empezar aquí la resolución del ejercicio
+
+#Introducir numeros por consola
+
+num1 = int(input("Ingrese su numero: "))
+
+num2 = int(input("Ingrese su numero: "))
+
+resul = num1 - num2
+
+if resul > 0:
+    print(" El resultado es Positivo")
+elif resul < 0:
+    print(" El resultado es Negativo")
+else:
+    print("El resultado es 0")
+
+print("Fin del programa")
